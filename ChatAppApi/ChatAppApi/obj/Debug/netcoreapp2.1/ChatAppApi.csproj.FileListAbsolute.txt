@@ -1,0 +1,14 @@
+C:\Users\rahulmondal\Desktop\ChatApp\ChatAppApi\ChatAppApi\bin\Debug\netcoreapp2.1\ChatAppApi.deps.json
+C:\Users\rahulmondal\Desktop\ChatApp\ChatAppApi\ChatAppApi\bin\Debug\netcoreapp2.1\ChatAppApi.runtimeconfig.json
+C:\Users\rahulmondal\Desktop\ChatApp\ChatAppApi\ChatAppApi\bin\Debug\netcoreapp2.1\ChatAppApi.runtimeconfig.dev.json
+C:\Users\rahulmondal\Desktop\ChatApp\ChatAppApi\ChatAppApi\bin\Debug\netcoreapp2.1\ChatAppApi.dll
+C:\Users\rahulmondal\Desktop\ChatApp\ChatAppApi\ChatAppApi\obj\Debug\netcoreapp2.1\ChatAppApi.csprojAssemblyReference.cache
+C:\Users\rahulmondal\Desktop\ChatApp\ChatAppApi\ChatAppApi\obj\Debug\netcoreapp2.1\ChatAppApi.csproj.CoreCompileInputs.cache
+C:\Users\rahulmondal\Desktop\ChatApp\ChatAppApi\ChatAppApi\obj\Debug\netcoreapp2.1\ChatAppApi.RazorAssemblyInfo.cache
+C:\Users\rahulmondal\Desktop\ChatApp\ChatAppApi\ChatAppApi\obj\Debug\netcoreapp2.1\ChatAppApi.RazorAssemblyInfo.cs
+C:\Users\rahulmondal\Desktop\ChatApp\ChatAppApi\ChatAppApi\obj\Debug\netcoreapp2.1\ChatAppApi.AssemblyInfoInputs.cache
+C:\Users\rahulmondal\Desktop\ChatApp\ChatAppApi\ChatAppApi\obj\Debug\netcoreapp2.1\ChatAppApi.AssemblyInfo.cs
+C:\Users\rahulmondal\Desktop\ChatApp\ChatAppApi\ChatAppApi\obj\Debug\netcoreapp2.1\ChatAppApi.RazorTargetAssemblyInfo.cache
+C:\Users\rahulmondal\Desktop\ChatApp\ChatAppApi\ChatAppApi\bin\Debug\netcoreapp2.1\ChatAppApi.pdb
+C:\Users\rahulmondal\Desktop\ChatApp\ChatAppApi\ChatAppApi\obj\Debug\netcoreapp2.1\ChatAppApi.dll
+C:\Users\rahulmondal\Desktop\ChatApp\ChatAppApi\ChatAppApi\obj\Debug\netcoreapp2.1\ChatAppApi.pdb

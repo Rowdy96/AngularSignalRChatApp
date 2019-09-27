@@ -1,0 +1,30 @@
+<p>
+  Let's chat!
+</p>
+
+<div id="main-container" style="text-align:center">
+
+ 
+  <div class="container">
+    <h2>Hello {{name}}!</h2>
+
+    <div class="container" *ngIf="messages.length > 0">
+      <div *ngFor="let message of messages">
+        <span>{{message}}</span>
+      </div>
+    </div>
+
+    <form (ngSubmit)="sendMessage()" #chatForm="ngForm">
+      <div>
+        <label for="message">Message</label>
+        <input type="text" id="message" name="message" [(ngModel)]="message" required>
+      </div>
+      <button type="submit" id="sendmessage" [disabled]="!chatForm.valid">
+        Send
+      </button>
+    </form>
+  </div>
+
+
+
+</div>
