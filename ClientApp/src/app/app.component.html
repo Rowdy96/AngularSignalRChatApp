@@ -1,30 +1,43 @@
-<p>
-  Let's chat!
-</p>
 
-<div id="main-container" style="text-align:center">
+<div id="live-chat">
 
- 
-  <div class="container">
-    <h2>Hello {{name}}!</h2>
+  <header class="clearfix">
+    <h3>{{name}}</h3>
+  </header>
 
-    <div class="container" *ngIf="messages.length > 0">
-      <div *ngFor="let message of messages">
-        <span>{{message}}</span>
+  <div class="chat">
+
+    <div class="chat-history">
+
+      <div *ngFor="let message of messages" >
+        <div class="chat-message clearfix">
+
+          <div class="chat-message-content clearfix">
+            <h4>{{message}}</h4>
+          </div> 
+
+        </div>
+
+        <hr>
       </div>
-    </div>
+    </div> 
 
-    <form (ngSubmit)="sendMessage()" #chatForm="ngForm">
-      <div>
-        <label for="message">Message</label>
-        <input type="text" id="message" name="message" [(ngModel)]="message" required>
+    <form class="form-inline" (ngSubmit)="sendMessage()" #chatForm="ngForm">
+
+      <div class="form-group">
+        <input type="text" placeholder="type message" id="message" name="message" [(ngModel)]="message" required>
       </div>
-      <button type="submit" id="sendmessage" [disabled]="!chatForm.valid">
-        Send
-      </button>
+
+      <div class="form-group">
+        <button class="btn btn-primary" type="submit" id="sendmessage" [disabled]="!chatForm.valid">
+          <span class="glyphicon glyphicon-share-alt"></span>
+        </button>
+      </div>
+
     </form>
+
   </div>
 
+</div> 
 
-
-</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>

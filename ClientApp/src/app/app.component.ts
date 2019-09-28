@@ -39,6 +39,7 @@ export class AppComponent implements OnInit {
   }
 
   public sendMessage(): void {
+
     this._hubConnection
       .invoke('SendMessage', this.name, this.message)
       .then(() => this.message = '')
